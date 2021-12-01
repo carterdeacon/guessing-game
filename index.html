@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500&display=swap');
+    </style>
+</head>
+<body>
+    <h1>Guessing Game</h1>
+    <h2>Pick a number from 1-10</h2>
+    <p>Number of guesses: <span class="guesses">0</span></p>
+    <section class="button-wrapper">
+        <button data-number="1" >1</button>
+        <button data-number="2">2</button>
+        <button data-number="3">3</button>
+        <button data-number="4">4</button>
+        <button data-number="5">5</button>
+        <button data-number="6">6</button>
+        <button data-number="7">7</button>
+        <button data-number="8">8</button>
+        <button data-number="9">9</button>
+        <button data-number="10">10</button> 
+    </section>
+    <div class="result"> </div>
+    <div class="reset-wrapper">
+        <button class="reset">Reset</button>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
+
+<!-- 
+data-number="1" allows data to be accessed more readily
+can be accessed using____.dataset.number as shown in JS on line 19-20 -->
